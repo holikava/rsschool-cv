@@ -28,6 +28,16 @@ I chose programming, because there is no limit for learning. I want to realize m
 
 ## Code Example
 
+``` 
+let num1 = 8;
+let num2 = 2;
+
+function multiply() {
+  let result = num1 * num2;
+  sumEl.textContent = "Sum: " + result;
+  console.log();
+}
+```
 
 ## Courses
 
@@ -36,6 +46,10 @@ I chose programming, because there is no limit for learning. I want to realize m
 * __The Rolling Scopes school__ JavaScript/Front-end developer _(in process)_
 
 ## Experience
+
+![Allbirds landing page](./img/project-img.png)
+
+[Allbirds landing page](https://github.com/holikava/allbirds-running-shose.git) _(first responsive work)_
 
 ## Languages
 
