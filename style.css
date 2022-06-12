@@ -10,9 +10,8 @@ html {
   --clr-gray-light: rgb(241,241,241);
   --clr-gray-dark: rgb(46,46,58);
 
-  --font-family-title: 'Montserrat Alternates', sans-serif;
+  --font-family-title: 'Ubuntu', sans-serif;
   --font-family-text: 'Barlow Condensed', sans-serif;
-
 }
 
 :root {
@@ -83,7 +82,7 @@ ul {
 }
 
 .title {
-  font-weight: 600;
+  font-weight: 700;
   font-family: var(--font-family-text);
   text-transform: uppercase;
   color: var(--clr-brand);
@@ -92,6 +91,7 @@ ul {
 .title-h2 {
   font-size: 2rem;
 }
+
 
 /* ************
     #HEADER */
@@ -104,7 +104,7 @@ ul {
 .nav__list * a {
   position: relative;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.1em;
   color: var(--clr-brand);
 }
@@ -123,6 +123,7 @@ ul {
   color: var(--clr-gray-dark);
 }
 
+
 /* *********
   #MAIN */
 
@@ -131,7 +132,6 @@ ul {
   margin-left: 5%;
   background-color: var(--clr-gray);
 }
- 
 
 .main__img {
   position: absolute;
@@ -159,7 +159,7 @@ ul {
 .main__h1 {
   margin-bottom: 1.1rem;
   font-size: 4rem;
-  font-weight: 600;
+  font-weight: 700;
   font-family: var(--font-family-title);
   line-height: 1.1;
   color: var(--clr-black);
@@ -176,11 +176,10 @@ ul {
   margin-right: 0.5em;
 }
 
-
 .main__contacts {
   margin-bottom: 2em;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .contacts__icons {
@@ -215,10 +214,9 @@ ul {
 /* **********
     #SKILLS SECTION */
 
-
 .skills__scale {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--clr-black);
 }
 
@@ -250,7 +248,6 @@ ul {
 }
 
 
-
 /* **********
     #COURSES SECTION */
 
@@ -280,7 +277,6 @@ ul {
 }
 
 
-
 /* **********
     #LANGUAGES SECTION */
 
@@ -301,14 +297,27 @@ ul {
 /* *********
     #FOOTER */
 
+.footer {
+  font-weight: 500;
+  font-family: var(--font-family-text);
+  color: var(--clr-black);
+}
+
 .footer__text {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin: 1em auto;
 }
 
 .footer__text > span {
   font-size: 1.3rem;
-  font-weight: 600;
   letter-spacing: 0.05em;
+}
 
+.footer-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  padding-left: 0.5em;
 }
