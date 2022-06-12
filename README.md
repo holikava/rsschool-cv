@@ -1,2 +1,1 @@
-# rsschool-cv
-CV for The Rolling Scopes School
+https://holikava.github.io/rsschool-cv/
