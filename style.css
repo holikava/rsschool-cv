@@ -51,7 +51,7 @@ a {
 
 h1, h2, h3, h4,
 ul, li,
-p {
+p, a {
   padding: 0;
   margin: 0;
 }
@@ -101,11 +101,26 @@ ul {
 }
 
 .nav__list * a {
-  margin-bottom: 0.3em;
+  position: relative;
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   color: var(--clr-brand);
+}
+
+.nav__list * a:hover {
+  color: var(--clr-gray-dark);
+}
+
+.nav__list * a:hover::after {
+  position: absolute;
+  right: -1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "<";
+  display: block;
+  color: var(--clr-gray-dark);
+  transition: all ease-in 5000ms;
 }
 
 /* *********
@@ -113,7 +128,6 @@ ul {
 
 .main {
   padding-top: 20%;
-  min-height: 100vh;
   margin-left: 5%;
   background-color: var(--clr-gray);
 }
@@ -128,7 +142,7 @@ ul {
   right: 10%;
   width: 40%;
   max-width: 600px;
-  height: 60vh;
+  min-height: 500px;
   background-color: var(--clr-brand);
 }
 
@@ -198,7 +212,8 @@ ul {
 }
 
 
-
+/* **********
+    #SKILLS SECTION */
 
 
 .skills__scale {
@@ -212,19 +227,18 @@ ul {
   display: block;
   width: 100%;
   height: 1em;
-  /* background-color: var(--clr-brand); */
 }
 
 .skills__scale-html::after {
-  background-image: linear-gradient(to right, rgba(200, 58, 45, 1) 60%, transparent 80%);
+  background-image: linear-gradient(to right, rgba(200, 58, 45, 1) 60%, transparent 70%);
 }
 
 .skills__scale-git::after {
-  background-image: linear-gradient(to right, rgba(200, 58, 45, 1) 50%, transparent 60%);
+  background-image: linear-gradient(to right, rgba(200, 58, 45, 1) 70%, transparent 80%);
 }
 
 .skills__scale-sass::after {
-  background-image: linear-gradient(to right, rgba(200, 58, 45, 1) 60%, transparent 80%);
+  background-image: linear-gradient(to right, rgba(200, 58, 45, 1) 60%, transparent 70%);
 }
 
 .skills__scale-figma::after {
@@ -237,11 +251,51 @@ ul {
 
 
 
+/* **********
+    #COURSES SECTION */
+
+.courses__text {
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+
+.courses__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.course {
+  margin-bottom: 0.5em;
+}
+
+.course__title {
+  font-size: 1.5rem;
+  color: var(--clr-black);
+}
+
+.course__about {
+  font-size: 1.2rem;
+  padding-left: 2em;
+}
 
 
 
+/* **********
+    #LANGUAGES SECTION */
 
+.languages__text {
+  padding-bottom: 2em;
+}
 
+.language__title {
+  font-size: 1.5rem;
+  color: var(--clr-black);
+}
+
+.language__level {
+  font-size: 1.2rem;
+}
 
 
 /* *********
