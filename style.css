@@ -112,10 +112,9 @@ ul {
   #MAIN */
 
 .main {
-  padding-top: 30vh;
+  padding-top: 20%;
   min-height: 100vh;
   margin-left: 5%;
-  margin-bottom: 2rem;
   background-color: var(--clr-gray);
 }
  
@@ -165,7 +164,7 @@ ul {
 
 
 .main__contacts {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -178,4 +177,84 @@ ul {
 .contacts__icons * img {
   margin-right: 0;
   margin-left: 0.5em;
+}
+
+
+/* ************
+    #ABOUT-ME SECTION */
+
+.about-me__text {
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+
+.about-me__text > p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5em;
+}
+
+.about-me__title {
+  margin-bottom: 0.5em;
+}
+
+
+
+
+
+.skills__scale {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--clr-black);
+}
+
+.skills__scale::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1em;
+  /* background-color: var(--clr-brand); */
+}
+
+.skills__scale-html::after {
+  background-image: linear-gradient(to right, rgba(200, 58, 45, 1) 60%, transparent 80%);
+}
+
+.skills__scale-git::after {
+  background-image: linear-gradient(to right, rgba(200, 58, 45, 1) 50%, transparent 60%);
+}
+
+.skills__scale-sass::after {
+  background-image: linear-gradient(to right, rgba(200, 58, 45, 1) 60%, transparent 80%);
+}
+
+.skills__scale-figma::after {
+  background-image: linear-gradient(to right, rgba(200, 58, 45, 1) 70%, transparent 80%);
+}
+
+.skills__scale-js::after {
+  background-image: linear-gradient(to right, rgba(200, 58, 45, 1) 30%, transparent 50%);
+}
+
+
+
+
+
+
+
+
+
+
+/* *********
+    #FOOTER */
+
+.footer__text {
+  text-align: center;
+  margin: 1em auto;
+}
+
+.footer__text > span {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+
 }
