@@ -47,6 +47,7 @@ a {
   display: inline-block;
   color: inherit;
   text-decoration: none;
+  transition: all ease-in-out 400ms;
 }
 
 h1, h2, h3, h4,
@@ -120,7 +121,6 @@ ul {
   content: "<";
   display: block;
   color: var(--clr-gray-dark);
-  transition: all ease-in 5000ms;
 }
 
 /* *********
