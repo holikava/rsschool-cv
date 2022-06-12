@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Ubuntu:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <div class="cv-doc">
+
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="main">
+      <div class="container grid">
+        <div class="main__img">
+          <img src="./assets/img/cv-photo.jpg" class="main__photo" alt="profile photo">
+        </div>
+
+        <div class="main__title">
+          <h1 class="main__h1"><span>Hi, i`m</span>Tatsiana Holikava</h1>
+          <p class="title title-h2">junior frontend developer</p>
+        </div>
+
+        <div id="contacts" class="main__contacts">
+          <ul class="contacts__list">
+            <li><a href="telto:+375336847681"><img src="./assets/icons/phone-icon.png"
+                  alt="phone icon">+375336847681</a></li>
+            <li><a href="mailto:holikavadev@gmail.com"><img src="./assets/icons/email-icon.png"
+                  alt="email icon">holikavadev@gmail.com</a></li>
+            <li><a href="https://goo.gl/maps/PcPepamGtj6V2Ldz5"><img src="./assets/icons/location-icon.png"
+                  alt="location icon">Gomel, Belarus</a></li>
+          </ul>
+          <ul class="contacts__icons">
+            <li><a href="https://t.me/tanyaholikava"><img src="./assets/icons/telegram_logo_icon.png"
+                  alt="telegram logo"></a></li>
+            <li><a href="https://github.com/holikava"><img src="./assets/icons/github_logo_icon.png"
+                  alt="GitHub logo"></a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+
+    <section id="about-me" class="about-me">
+      <div class="container">
+        <div class="about-me__text">
+          <h2 class="title title-h2 about-me__title">About me</h2>
+          <p>
+            I decided to change my profession, as I received all the available experience in my current position. Now I
+            can to plan my workflow, keep my concentration during work, even in stressful conditions, and I know how
+            important to work in a team.
+          </p>
+          <p>
+            I chose programming, because there is no limit for learning. I want to realize my accumulated potential for
+            education. And someday I`ll become an experienced front-end developer.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="skills__text">
+          <h2 class="title title-h2">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__scale skills__scale-html">HTML5 & CSS3</li>
+            <li class="skills__scale skills__scale-git">Git & GitHub</li>
+            <li class="skills__scale skills__scale-sass">SASS & BEM</li>
+            <li class="skills__scale skills__scale-figma">VS code & Figma</li>
+            <li class="skills__scale skills__scale-js">JavaScript basics</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="courses" class="courses">
+      <div class="container">
+        <div class="courses__text">
+          <h2 class="title title-h2">Courses</h2>
+          <div class="courses__block">
+            <div class="course">
+              <h3 class="course__title">freeCodeCamp</h3>
+              <p class="course__about">Responsive Web Design</p>
+            </div>
+            <div class="course">
+              <h3 class="course__title">freeCodeCamp</h3>
+              <p class="course__about">JavaScript Algorithms and Data Structures</p>
+            </div>
+            <div class="course">
+              <h3 class="course__title">The Rolling Scopes school</h3>
+              <p class="course__about">JavaScript/Front-end developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="languages" class="languages">
+      <div class="container">
+        <div class="languages__text">
+          <h2 class="title title-h2">Languages</h2>
+          <div class="language">
+            <h3 class="language__title">English</h3>
+            <p class="language__level">upper intermediate (B2)</p>
+          </div>
+          <div class="language">
+            <h3 class="language__title">Russian</h3>
+            <p class="language__level">native speaker</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__text">
+        <span><a href="https://github.com/holikava">My GitHub</a></span>
+        <span>&copy; 2022</span>
+        <span>Create by<a href="https://rs.school/js/"><img class="footer-icon" src="./assets/icons/rs_school_js.svg"
+              alt="The Rolling Scopes school"></a></span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
