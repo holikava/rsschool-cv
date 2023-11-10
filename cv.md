@@ -1,30 +1,30 @@
-Front-end Developer
-Tatsiana Holikava
+### Front-end Developer
+# ***Tatsiana Holikava***
 
-Contacts
+## Contacts
 
-Phone: +375336847681
-Email: holikavadev@gmail.com
-GitHub: [holikava](https://github.com/holikava)
-Telegram: tanyaholikava
-Discord: holikava (@holikava)
-Location: Gomel, Belarus
+* Phone: +375336847681
+* Email: holikavadev@gmail.com
+* GitHub: [holikava](https://github.com/holikava)
+* Telegram: tanyaholikava
+* Discord: holikava (@holikava)
+* Location: Gomel, Belarus
 
-About Me
+## About Me
 
 > _see the goal - see no obstacles_
 
 I worked in the intensive care unit for more than seven years. During this time, I learned how to work in a team, cope with stress, always focus on results and be responsible for my work. But I decided to change my profession, because I received all the available experience in my current position. I choose programming, because there is no limit for education. I want to realize my accumulated potential for learning.
 
-Skills
+## Skills
 
-HTML5 & CSS3
-Git & GitHub
-SASS & BEM
-VS code & Figma
-JavaScript (basics, ECMAScript6+, DOM manipulation)
+* HTML5 & CSS3
+* Git & GitHub
+* SASS & BEM
+* VS code & Figma
+* JavaScript (basics, ECMAScript6+, DOM manipulation)
 
-Code Example
+## Code Example
 
 ```
 'use strict';
@@ -46,21 +46,21 @@ function getRandomNumber() {
 }
 ```
 
-Courses
+## Courses
 
-freeCodeCamp Responsive Web Design _(done)_
-freeCodeCamp JavaScript Algorithms and Data Structures _(in process)_
-The Rolling Scopes school JavaScript/Front-end developer _(in process)_
+* freeCodeCamp Responsive Web Design _(done)_
+* freeCodeCamp JavaScript Algorithms and Data Structures _(in process)_
+* The Rolling Scopes school JavaScript/Front-end developer _(in process)_
 
 
-Experience
+## Experience
 
 [Allbirds landing](https://github.com/holikava/allbirds-running-shose) 
 
 [Restaurant landing](https://github.com/holikava/restaurant-landing) 
 
 
-Languages
+## Languages
 
-English: upper intermediate (B2)
-Russian: native speaker
+* English: upper intermediate (B2)
+* Russian: native speaker
