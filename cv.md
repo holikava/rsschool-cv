@@ -54,7 +54,7 @@ btn.addEventListener('click', () => {
 
 ## Experience
 
-[Allbirds landing](https://github.com/holikava/allbirds-running-shose)
+[Allbirds landing](https://holikava.github.io/allbirds-running-shose/)
 [The Witcher Playfield](https://holikava.github.io/witcher-playfield/)
 
 ## Languages
